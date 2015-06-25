@@ -1,11 +1,11 @@
-var myApp = angular.module('myApp', ['ngRoute']);
-myApp.controller('HomeCtrl', function($scope, $routeParams) {
+var skApp = angular.module('skApp', ['ngRoute']);
+skApp.controller('HomeCtrl', function($scope, $routeParams) {
 
 
 
 });
 
-myApp.config(function ($routeProvider){
+skApp.config(function ($routeProvider){
 	$routeProvider
 	.when('/home',{
 		templateUrl: 'home.html',
